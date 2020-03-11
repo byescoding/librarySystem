@@ -1,28 +1,20 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: 云飘
-  Date: 2020/3/9
-  Time: 14:05
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8"  %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-
-    <title>管理页面</title>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/bootstrap.min.css">
-    <script src="${pageContext.request.contextPath}/static/js/jquery-3.2.1.js"></script>
-    <script src="${pageContext.request.contextPath}/static/js/bootstrap.min.js" ></script>
+    <title>管理主页</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.min.js" ></script>
     <script>
-        // 加载头部页面
         $(function () {
-     $(#header).load('admin_header.html');
+            $('#header').load('admin_header.html');
         })
     </script>
-
 </head>
-<body background="${pageContext.request.contextPath}/static/img/book2.jpg" style="background-repeat: no-repeat;background-size: 100% 100%;background-attachment: fixed">
+<body background="/static/img/1583851799.jpg" style=" background-repeat:no-repeat ;
+background-size:100% 100%;
+background-attachment: fixed;">
 
 <div id="header"></div>
 
@@ -57,7 +49,6 @@
         })
     </script>
 </c:if>
-
 
 </body>
 </html>

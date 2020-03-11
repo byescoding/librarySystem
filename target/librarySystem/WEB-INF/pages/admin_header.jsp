@@ -1,15 +1,5 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: 云飘
-  Date: 2020/3/9
-  Time: 14:03
-  To change this template use File | Settings | File Templates.
-
-
-   图书馆登录首页头部样式
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<nav style="position:fixed;z-index: 999;width: 100%;background-color: #25c6fc" class="navbar navbar-default"
+<nav style="position:fixed;z-index: 999;width: 100%;background-color:#122b40" class="navbar navbar-default"
      role="navigation">
     <div class="container-fluid">
         <div class="navbar-header" style="margin-left: 8%;margin-right: 1%">
@@ -28,7 +18,7 @@
                         <li><a href="book_add.html">增加图书</a></li>
                     </ul>
                 </li>
-                <li class="dropdown">
+                <li class="dropdown" >
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: white">
                         读者管理
                         <b class="caret"></b>

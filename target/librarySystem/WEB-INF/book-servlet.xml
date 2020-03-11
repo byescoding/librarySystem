@@ -20,6 +20,11 @@
             p:viewClass="org.springframework.web.servlet.view.JstlView"
             p:prefix="/WEB-INF/pages/"
             p:suffix=".jsp"  />
+<!--防止引入的静态资源被拦截-->
     <mvc:default-servlet-handler/>
+    <mvc:annotation-driven />
+    <mvc:resources mapping="/css/**" location="/static/css/**" />
+    <mvc:resources mapping="/img/**" location="/static/img/**" />
+    <mvc:resources mapping="/js/**" location="/static/js/**" />
 
 </beans>
