@@ -14,6 +14,8 @@
 管理员发布公告
 管理员发布预约信息
 读者预约
+读者借阅
+日志管理
 
 ##### 基本功能展示
 
@@ -49,7 +51,7 @@
 
 
 
-![](library_images\预约日志信息界面.png)
+![Image text](library_images\预约日志信息界面.png)
 
 
 
@@ -57,7 +59,7 @@
 
 ##### 数据库表结构
 
-![](library_images\QQ截图20200702133500.png)
+![Image text](https://github.com/byescoding/librarySystem/blob/master/library_images/QQ%E6%88%AA%E5%9B%BE20200702133924.png)
 
 
 
