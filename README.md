@@ -9,11 +9,15 @@
 
 **基本功能包括**
 
-![](library_images\QQ截图20200702133924.png)
+预约
+注册
+管理员发布公告
+管理员发布预约信息
+读者预约
 
 ##### 基本功能展示
 
-![](library_images\reder图书馆首页.png)
+![Image text](https://github.com/byescoding/librarySystem/blob/master/library_images/QQ%E6%88%AA%E5%9B%BE20200702133500.png)
 
 
 
